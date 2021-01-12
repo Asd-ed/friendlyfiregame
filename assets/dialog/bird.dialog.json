@@ -1,46 +1,46 @@
 {
     "entry": [
-        "♪ Chirp!",
-        "►Who are you? @who",
-        "►What are you up to? @what",
-        "►[relevant]Can you help me in my quest? @quest",
-        "►[not chirp]Did you just say “Chirp”? @chirp",
-        "►You have strange flying technique. @multijump",
-        "►Bye, bird. @bye"
+        "♪ Чирик!",
+        "►Кто вы?? @who",
+        "►Что вы тут делаете? @what",
+        "►[relevant]Вы можете помочь мне с одним квестом? @quest",
+        "►[not chirp]Вы только что сказали “Чирик”? @chirp",
+        "►У вас странная техника полета. @multijump",
+        "►Досвидание, Птица. @bye"
     ],
     "chirp": [
-        "Yes, I did. ♪ Chirp. That's what birds say! !set chirp true @entry"
+        "Ага, я сказала. ♪ Чирик. Это то что говорят птицы! !set chirp true @entry"
     ],
     "who": [
-        "I'm the bird around these parts. @entry"
+        "Я - Птица в этих краях. @entry"
     ],
     "what": [
-        "I do bird stuff, mostly.",
-        "I fly from my nest to some bushes to find food.",
-        "♪ Chirp.",
-        "There isn't any, though. !set relevant true",
-        "My adopted child might go hungry again.",
-        "►You adopted a bird baby?",
-        "No. ♪ Chirp!",
-        "It's something else. But it's still my son.",
-        "You can visit our nest on the tree in the west...",
-        "if you can fly, that is.",
-        "♪ Chirp! @entry"
+        "В основном я занимаюсь птичьими делами.",
+        "Я лечу из гнезда в кусты, чтобы найти пищу.",
+        "♪ Чирик.",
+        "Пока я ещё не находила. !set relevant true",
+        "А мой приёмный ребенок может снова проголодаться.",
+        "►Вы усыновили птенца?",
+        "Нет. ♪ Chirp!",
+        "Это что-то другое. Но это все ещё мой сын.",
+        "Ты можешь посетить наше гнездо на дереве на западе...",
+        "если ты конечно умеешь летать, то сможешь.",
+        "♪ Чирик! @entry"
     ],
     "quest": [
-        "What quest? I'm a bird!",
-        "Whatever you're up to is not my concern, really.",
-        "♪ Chirp. I'm just doing my daily bird things. @entry"
+        "Какой квест? Я птица!",
+        "Впрочем, что бы вы ни задумали, на самом деле меня это не волнует.",
+        "♪ Чирик. Я просто занимаюсь своими птичьими делами. @entry"
     ],
     "multijump": [
-        "I'm not actually flying, though.",
-        "It's the multi-jump power-up that I got a while ago.",
-        "♪ Chirp.",
-        "They said it was a flying ability, but it's not really.",
-        "But I don't care much. At least I don't have to flap my wings anymore. @entry"
+        "Вообще-то, я не летаю.",
+        "Это суперспособность к мультипрыжку, которое я получила не так давно.",
+        "♪ Чирик.",
+        "Они сказали, что это способность летать, но на самом деле это не так.",
+        "Но мне всё равно. По крайней мере, мне больше не нужно махать крыльями. @entry"
     ],
     "bye": [
-        "Bye, human.",
-        "♪ Chirp! @entry !end"
+        "До встречи, человек.",
+        "♪ Чирик! @entry !end"
     ]
 }
